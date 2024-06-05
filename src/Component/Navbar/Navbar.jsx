@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = ({ setBarsopen , setLogin , setSearch}) => {
   return (
     <div className='Navbar'>
-        <div className="logo"><NavLink to={"/"}><img src="./public/images/Logo.png" alt="" /></NavLink></div>
+        <div className="logo"><NavLink to={"/"}><img src="/images/Logo.png" alt="" /></NavLink></div>
         <ul>
             <li><NavLink to={"/"}>Home</NavLink></li>
             <li><NavLink to={"/Shop"}>Shop</NavLink></li>
