@@ -37,11 +37,11 @@ const Login = ({login , setLogin}) => {
         <div className="gugl">
           <p>Or login with</p>
           <div className="button">
-            <img src="./public/images/google.png" alt="" />
+            <img src="/images/google.png" alt="" />
             <p>Login with Google</p>
           </div>
           <div className="button">
-            <img src="./public/images/facebook.png" alt="" />
+            <img src="/images/facebook.png" alt="" />
             <p>Login with Facebook</p>
           </div>
         </div>

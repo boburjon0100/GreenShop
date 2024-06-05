@@ -16,7 +16,7 @@ const ShopCart = () => {
         <div className="productbox">
                 <div className="products1">
                     <div className="img">
-                        <img src="./public/images/main12.png" alt="" />
+                        <img src="/images/main12.png" alt="" />
                     </div>
                     <div className="narx">
                         <h4>Barberton Daisy</h4>
@@ -41,7 +41,7 @@ const ShopCart = () => {
         <div className="productbox">
                 <div className="products1">
                     <div className="img">
-                        <img src="./public/images/main13.png" alt="" />
+                        <img src="/images/main13.png" alt="" />
                     </div>
                     <div className="narx">
                         <h4>Barberton Daisy</h4>
@@ -66,7 +66,7 @@ const ShopCart = () => {
         <div className="productbox">
                 <div className="products1">
                     <div className="img">
-                        <img src="./public/images/main14.png" alt="" />
+                        <img src="/images/main14.png" alt="" />
                     </div>
                     <div className="narx">
                         <h4>Barberton Daisy</h4>

@@ -65,7 +65,7 @@ const Slider = () => {
                 <div>
                 <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main12.png" />
+                    <img src="/images/main12.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -92,7 +92,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main13.png" />
+                    <img src="/images/main13.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -119,7 +119,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main14.png" />
+                    <img src="/images/main14.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -146,7 +146,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main15.png" />
+                    <img src="/images/main15.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -173,7 +173,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main16.png" />
+                    <img src="/images/main16.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -199,7 +199,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main17.png" />
+                    <img src="/images/main17.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -226,7 +226,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main18.png" />
+                    <img src="/images/main18.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -253,7 +253,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main19.png" />
+                    <img src="/images/main19.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>
@@ -280,7 +280,7 @@ const Slider = () => {
             <SwiperSlide>
             <div className="box">
                 <div className="box-img">
-                    <img src="./public/images/main21.png" />
+                    <img src="/images/main21.png" />
                 </div>
                 <div className="box-icon">
                     <NavLink>

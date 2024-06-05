@@ -7,7 +7,7 @@ const Foter = () => {
         <div className="qism1">
         <div className="garden">
          <div className="img">
-            <img src="./public/images/foter3.png" alt="" />
+            <img src="/images/foter3.png" alt="" />
          </div>
          <div className="text">
             <h3>Garden Care</h3>
@@ -16,7 +16,7 @@ const Foter = () => {
         </div>
         <div className="garden">
          <div className="img">
-            <img src="./public/images/foter2.png" alt="" />
+            <img src="/images/foter2.png" alt="" />
          </div>
          <div className="text">
             <h3>Plant Renovation</h3>
@@ -25,7 +25,7 @@ const Foter = () => {
         </div>
         <div className="garden">
          <div className="img">
-            <img src="./public/images/foter3.png" alt="" />
+            <img src="/images/foter3.png" alt="" />
          </div>
          <div className="text">
             <h3>Watering Graden</h3>
@@ -43,7 +43,7 @@ const Foter = () => {
         </div>
         <div className="qism2">
             <div className="img">
-                <img src="./public/images/Logo.png" alt="" />
+                <img src="/images/Logo.png" alt="" />
             </div>
             <div className="icon_text">
             <i class="fa-solid fa-location-dot"></i>
@@ -101,7 +101,7 @@ const Foter = () => {
            </div>
            <h4>We accept</h4>
            <div className="img">
-            <img src="./public/images/foter4.png" alt="" />
+            <img src="/images/foter4.png" alt="" />
            </div>
             </div>
         </div>

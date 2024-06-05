@@ -32,8 +32,8 @@ const Headers = () => {
                 <button>SHOP NOW</button>
         </div>
         <div className="right">
-           <img className="img1" src="./public/images/header1.png" alt="" />
-            <img className="img2" src="./public/images/header1.png" alt="" />
+           <img className="img1" src="/images/header1.png" alt="" />
+            <img className="img2" src="/images/header1.png" alt="" />
         </div>
        
     </div>
@@ -48,8 +48,8 @@ const Headers = () => {
                 <button>SHOP NOW</button>
         </div>
         <div className="right">
-           <img className="img1" src="./public/images/header1.png" alt="" />
-            <img className="img2" src="./public/images/header1.png" alt="" />
+           <img className="img1" src="/images/header1.png" alt="" />
+            <img className="img2" src="/images/header1.png" alt="" />
         </div>
        
     </div>
@@ -64,8 +64,8 @@ const Headers = () => {
                 <button>SHOP NOW</button>
         </div>
         <div className="right">
-           <img className="img1" src="./public/images/header1.png" alt="" />
-            <img className="img2" src="./public/images/header1.png" alt="" />
+           <img className="img1" src="/images/header1.png" alt="" />
+            <img className="img2" src="/images/header1.png" alt="" />
         </div>
        
     </div>

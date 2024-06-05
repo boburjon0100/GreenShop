@@ -19,19 +19,19 @@ const MakeUp = () => {
     <div className="ShopMakeUp">
                 <div className="MakeUp-hed">
                     <div className="MakeUp-box">
-                        <img src="./public/images/main12.png" />
+                        <img src="/images/main12.png" />
                     </div>
 
                     <div className="MakeUp-box">
-                        <img src="./public/images/main19.png" />
+                        <img src="/images/main19.png" />
                     </div>
 
                     <div className="MakeUp-box">
-                        <img src="./public/images/main12.png" />
+                        <img src="/images/main12.png" />
                     </div>
 
                     <div className="MakeUp-box">
-                        <img src="./public/images/main19.png" />
+                        <img src="/images/main19.png" />
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ const MakeUp = () => {
                         <Search />
                     </Link>
 
-                    <img src="./public/images/main12.png" />
+                    <img src="/images/main12.png" />
                 </div>
 
                 <div className="MakeUp-fot">

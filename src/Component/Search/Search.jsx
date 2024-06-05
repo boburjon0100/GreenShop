@@ -13,7 +13,7 @@ const Search = ({search , setSearch}) => {
           <div className="product">
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main12.png" alt="" />
+                    <img src="/images/main12.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -28,7 +28,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main12.png" alt="" />
+                    <img src="/images/main12.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -43,7 +43,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main13.png" alt="" />
+                    <img src="/images/main13.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -58,7 +58,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main14.png" alt="" />
+                    <img src="/images/main14.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -73,7 +73,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main15.png" alt="" />
+                    <img src="/images/main15.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -88,7 +88,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main16.png" alt="" />
+                    <img src="/images/main16.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -103,7 +103,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main17.png" alt="" />
+                    <img src="/images/main17.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -118,7 +118,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main18.png" alt="" />
+                    <img src="/images/main18.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -133,7 +133,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main19.png" alt="" />
+                    <img src="/images/main19.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>
@@ -148,7 +148,7 @@ const Search = ({search , setSearch}) => {
           </div>
           <div className="product1">
                 <div className="rasm">
-                    <img src="./public/images/main20.png" alt="" />
+                    <img src="/images/main20.png" alt="" />
                     <div className="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-regular fa-heart"></i>

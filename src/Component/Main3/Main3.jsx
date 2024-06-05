@@ -10,7 +10,7 @@ const Main3 = () => {
         </div>
         <div className="blog">
             <div className="rasm">
-                <img src="./public/images/main31.png" alt="" />
+                <img src="/images/main31.png" alt="" />
             </div>
             <div className="text2">
                 <h4>September 12  |  Read in 45 minutes</h4>
@@ -21,7 +21,7 @@ const Main3 = () => {
         </div>
         <div className="blog">
             <div className="rasm">
-                <img src="./public/images/main32.png" alt="" />
+                <img src="/images/main32.png" alt="" />
             </div>
             <div className="text2">
                 <h4>September 13  |  Read in 12 minutes</h4>
@@ -32,7 +32,7 @@ const Main3 = () => {
         </div>
         <div className="blog">
             <div className="rasm">
-                <img src="./public/images/main33.png" alt="" />
+                <img src="/images/main33.png" alt="" />
             </div>
             <div className="text2">
                 <h4>September 14  |  Read in 18 minutes</h4>
@@ -43,7 +43,7 @@ const Main3 = () => {
         </div>
         <div className="blog">
             <div className="rasm">
-                <img src="./public/images/main34.png" alt="" />
+                <img src="/images/main34.png" alt="" />
             </div>
             <div className="text2">
                 <h4>September 15  |  Read in 6 minutes</h4>

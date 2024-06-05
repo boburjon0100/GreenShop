@@ -6,7 +6,7 @@ const Main2 = () => {
     <div className='main2'>
         <div className="left">
             <div className="rasm">
-                <img src="./public/images/main21.png" alt="" />
+                <img src="/images/main21.png" alt="" />
             </div>
             <div className="text">
                 <h2> SUMMER CACTUS <br /> & SUCCULENTS</h2>
@@ -18,7 +18,7 @@ const Main2 = () => {
         </div>
         <div className="left">
             <div className="rasm">
-                <img src="./public/images/main22.png" alt="" />
+                <img src="/images/main22.png" alt="" />
             </div>
             <div className="text">
                 <h2> WINTER CACTUS <br /> & SUCCULENTS</h2>
