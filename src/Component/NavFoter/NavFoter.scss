@@ -1,0 +1,51 @@
+.NavFoter{
+    display: none;
+}
+
+
+@media screen and (min-width:0) and (max-width:390px){
+    .NavFoter{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: absolute;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 10px ;
+        background-color: rgb(232, 232, 232);
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        z-index: 5;
+        i{
+            font-size: 20px;
+            color: rgb(126, 126, 126);
+            &:hover{
+                color: rgb(3, 200, 0);
+            }
+        }
+        .icon{
+            width: 60px;
+            height: 60px;
+            background-color: rgb(255, 5, 5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            background-color: rgba(19, 129, 21, 0.776);
+            bottom: 30px;
+            &:hover{
+                background-color: rgba(10, 190, 13, 0.776);
+            }
+            i{
+                font-size: 20px;
+                color: white;
+            }
+        }
+}
+
+}

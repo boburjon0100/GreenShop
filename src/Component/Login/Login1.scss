@@ -1,0 +1,364 @@
+.login{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+
+    background-color: rgba(0, 0, 0, 0.436);
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    &.active {
+       display: flex;
+       position: fixed;
+    }
+    .login1{
+        width: 500px;
+        height: 650px;
+        background-color: rgb(232, 232, 232);
+        position: relative;
+        border-radius: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .fa-circle-xmark{
+            font-size: 30px;
+            color: red;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .text{
+            width: 400px;
+            height: 30px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            ul{
+                display: flex;
+                gap: 10px;
+            
+           li {
+                font-size: 20px;
+                font-weight: 550;
+                a{
+                    color: rgb(62, 62, 62);
+                }.active{
+                    color: rgb(100, 180, 100);
+                }
+            }
+        }
+        }
+        .parol{ 
+            width: 400px;
+            height: 250px;
+            margin: 0px auto;
+            display: none;
+            flex-direction: column;
+            text-align: right;
+            &.activeL{
+                display: flex;
+            }
+
+            input{
+                width: 90%;
+                height: 40px;
+                margin: 10px auto;
+                font-size: 18px;
+                padding: 2px 5px 2px 15px;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+            }
+            button{
+                width: 90%;
+                height: 50px;
+                margin: 30px auto 0 auto;
+                background-color: #46A358;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                &:hover{
+                    background-color: #74b781;
+                    color: white;
+                }
+            }
+            p{
+              padding-right: 30px;
+              a{
+                color: green;
+                &:hover{
+                    color: rgb(0, 0, 0);
+                }
+              }
+            }
+        }
+        .parol1{
+            width: 400px;
+            height: 350px;
+            margin: 0px auto;
+            display: none;
+            flex-direction: column;
+            text-align: right;
+            &.activeL1{
+                display: flex;
+            }
+
+            input{
+                width: 90%;
+                height: 40px;
+                margin: 10px auto;
+                font-size: 16px;
+                padding: 2px 5px 2px 15px;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+            }
+            button{
+                width: 90%;
+                height: 50px;
+                margin: 30px auto 0 auto;
+                background-color: #46A358;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                &:hover{
+                    background-color: #74b781;
+                    color: white;
+                }
+            }
+            p{
+              padding-right: 30px;
+              a{
+                color: green;
+                &:hover{
+                    color: rgb(0, 0, 0);
+                }
+              }
+            }
+        }
+        .gugl{
+            width: 400px;
+            height: 200px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 18px;
+            .button{
+              width: 350px;
+              height: 50px;
+              margin: 20px auto;
+              border-radius: 5px;
+              border: 1px solid rgb(176, 176, 176);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+            
+              img{
+                width: 30px;
+                height: 30px;
+              }
+              p{
+                font-size: 20px;
+                color: grey;
+              }
+              &:hover{
+                background-color: rgb(208, 208, 208);
+              }
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (min-width:0) and (max-width:390px){
+    .login{
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        margin: 0 auto;
+        display: none;
+    
+        background-color: rgba(0, 0, 0, 0.436);
+        position: absolute;
+        z-index: 10;
+        justify-content: center;
+        align-items: center;
+        &.active {
+           display: flex;
+           position: fixed;
+        }
+        .login1{
+            width: 350px;
+            height: auto;
+            background-color: rgb(232, 232, 232);
+            position: relative;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .fa-circle-xmark{
+                font-size: 30px;
+                color: red;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+            .text{
+                width: 340px;
+                height: 30px;
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                align-items: center;
+                margin-top: 70px;
+                ul{
+                    display: flex;
+                    gap: 10px;
+                
+               li {
+                    font-size: 20px;
+                    font-weight: 550;
+                    a{
+                        color: rgb(62, 62, 62);
+                    }.active{
+                        color: rgb(100, 180, 100);
+                    }
+                }
+            }
+            }
+            .parol{ 
+                width: 340px;
+                height: 230px;
+                margin: 0px auto;
+                display: none;
+                flex-direction: column;
+                text-align: right;
+                &.activeL{
+                    display: flex;
+                }
+    
+                input{
+                    width: 90%;
+                    height: 40px;
+                    margin: 10px auto;
+                    font-size: 18px;
+                    padding: 2px 5px 2px 15px;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                }
+                button{
+                    width: 90%;
+                    height: 50px;
+                    margin: 30px auto 0 auto;
+                    background-color: #46A358;
+                    border-radius: 5px;
+                    border: none;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    &:hover{
+                        background-color: #74b781;
+                        color: white;
+                    }
+                }
+                p{
+                  padding-right: 30px;
+                  a{
+                    color: green;
+                    &:hover{
+                        color: rgb(0, 0, 0);
+                    }
+                  }
+                }
+            }
+            .parol1{
+                width: 340px;
+                height: 350px;
+                margin: 0px auto;
+                display: none;
+                flex-direction: column;
+                text-align: right;
+                &.activeL1{
+                    display: flex;
+                }
+    
+                input{
+                    width: 90%;
+                    height: 40px;
+                    margin: 10px auto;
+                    font-size: 16px;
+                    padding: 2px 5px 2px 15px;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                }
+                button{
+                    width: 90%;
+                    height: 50px;
+                    margin: 30px auto 0 auto;
+                    background-color: #46A358;
+                    border-radius: 5px;
+                    border: none;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    &:hover{
+                        background-color: #74b781;
+                        color: white;
+                    }
+                }
+                p{
+                  padding-right: 30px;
+                  a{
+                    color: green;
+                    &:hover{
+                        color: rgb(0, 0, 0);
+                    }
+                  }
+                }
+            }
+            .gugl{
+                width: 330px;
+                height: 170px;
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 18px;
+                .button{
+                  width: 320px;
+                  height: 40px;
+                  margin: 20px auto;
+                  border-radius: 5px;
+                  border: 1px solid rgb(176, 176, 176);
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 10px;
+                
+                  img{
+                    width: 25px;
+                    height: 25px;
+                  }
+                  p{
+                    font-size: 20px;
+                    color: grey;
+                  }
+                  &:hover{
+                    background-color: rgb(208, 208, 208);
+                  }
+                }
+            }
+            
+        }
+    }  
+}

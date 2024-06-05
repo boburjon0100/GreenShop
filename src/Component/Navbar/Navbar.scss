@@ -1,0 +1,196 @@
+.Navbar{
+    max-width: 1450px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(221, 221, 221);
+
+
+    .logo{
+        width: 170px;
+        height: 50px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    }
+    ul{
+        display: flex;
+        gap: 70px;
+        li{
+            border-bottom: 3px solid #46A358;
+            
+            a{
+                color: black;
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+    }
+    .search{
+       width: 200px;
+       height: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: end;
+       gap: 20px;
+       position: relative;
+
+       i{
+        color: black;
+        font-size: 22px;
+       }
+       span{
+        width: 15px;
+        height: 15px;
+        border-radius: 49%;
+        background-color: #46A358;
+        color: white;
+        font-weight: 600;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 5px;
+        font-size: 12px;
+        right: 115px;
+       }
+       button{
+        width: 100px;
+        height: 35px;
+        gap: 50px;
+        border-radius: 6px ;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        background-color: #46A358;
+        
+        i{
+            color: white;
+        }
+       }button:hover{
+        background-color: #74b781;
+        color: white;
+       }
+    }
+    input{
+        display: none;
+       
+    }
+    .bars{
+      display: none;      
+    }
+}
+
+@media screen and (min-width:0) and (max-width:390px) {
+    .Navbar{
+        width: 380px;
+        height: 60px;
+        margin: 0 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+    
+        .logo{
+            width: 170px;
+            height: 50px;
+            display: none;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        }
+        ul{
+            display: none;
+            gap: 70px;
+            li{
+                border-bottom: 3px solid #46A358;
+                
+                a{
+                    color: black;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+        }
+        .search{
+           width: 200px;
+           height: 50px;
+           display: none;
+           align-items: center;
+           justify-content: end;
+           gap: 20px;
+           position: relative;
+    
+           i{
+            color: black;
+            display: none;
+           }
+           span{
+            width: 15px;
+            height: 15px;
+            border-radius: 49%;
+            background-color: #46A358;
+            color: white;
+            font-weight: 600;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            display: none;
+            top: 5px;
+            font-size: 12px;
+            right: 115px;
+           }
+           button{
+            width: 100px;
+            height: 35px;
+            gap: 50px;
+            border-radius: 6px ;
+            border: none;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            display: none;
+            
+            i{
+                color: white;
+            }
+           }button:hover{
+            background-color: #74b781;
+            color: white;
+           }
+        }
+        input{
+            width: 310px;
+            height: 45px;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: rgb(225, 222, 222);
+            font-size: 15px;
+            display: flex;
+            border: none;
+            outline: none;
+           
+        }
+        .bars{
+            width: 45px;
+            height: 45px;
+            display: flex;   
+            align-items: center;
+            justify-content: center;
+            border-radius: 14px;
+            background-color: #46A358;
+            i{
+                color: white;
+            }
+        }.bars:hover{
+            background-color: #5cb36d;
+           
+        }
+    }
+} 

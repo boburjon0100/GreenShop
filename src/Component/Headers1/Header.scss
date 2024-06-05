@@ -1,0 +1,195 @@
+.sviper{
+    width: 1450px;
+    height: 565px;
+
+    .sviper1{
+        
+       
+        .header{
+  
+           position: relative;
+            margin: 0px auto;
+            display: flex;
+            background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+        
+        
+            .left{
+                width: 950px;
+                height: 100%;
+             
+        
+                h3{
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-top: 80px;
+                    padding-left: 40px;
+                }
+                h1{
+                    font-size: 80px;
+                    padding-left: 35px;
+                    span{
+                        color: rgb(56, 169, 50);
+                    }
+                }
+                p{
+                    font-size: 18px;
+                    padding-left: 40px;
+                    color: rgb(97, 97, 97);
+                }
+                button{
+                    padding: 13px 27px;
+                    font-weight: 600;
+                   color: white;
+                   background-color: #46A358;
+                   border: none;
+                   border-radius: 8px;
+                   margin-left: 40px;
+                   margin-top: 40px;
+                   font-size: 15px;
+                }
+                button:hover{
+                    background-color: #74b781;
+                    color: white;
+                }
+            }
+            .right{
+                width: 550px;
+                height: 100%;
+                position: relative;
+                .img1{
+                    width: 170px;
+                    height: 170px;
+                    position: absolute;
+                    z-index: 5;
+                    bottom: 38px;
+                    left: 40px;
+                }
+                .img2{
+             
+                    width: 550px;
+                    height: 100%;
+                }
+            }
+          
+        
+            
+        }
+    }
+}
+
+@media screen and (min-width:0) and (max-width:390px){
+    .sviper{
+        width: 370px;
+        height: auto;
+        border: none;
+    
+        .sviper1{
+            overflow: hidden;
+            .header{
+                position: relative;
+                margin: 20px auto;
+                display: flex;
+                background: rgb(195, 230, 195);
+                width: 365px;
+                height: 200px;
+                border-radius: 20px;
+                border: none;
+            
+                .left{
+                    width: 255px;
+                    height: 100%;
+                 
+            
+                    h3{
+                        font-size: 8px;
+                        font-weight: 500;
+                        padding-top: 30px;
+                        padding-left: 20px;
+                    }
+                    h1{
+                        font-size: 20px;
+                        padding-left: 20px;
+                        padding-top: 5px;
+                        span{
+                            color: rgb(53, 151, 47);
+                        }
+                    }
+                    p{
+                        font-size: 6px;
+                        padding-left: 20px;
+                        padding-top: 5px;
+                        color: rgb(36, 36, 36);
+                    }
+                    button{
+                        padding: 5px 12px;
+                        font-weight: 600;
+                       color: white;
+                       background-color: #46A358;
+                       border: none;
+                       border-radius: 8px;
+                       margin-left: 20px;
+                       margin-top: 20px;
+                       font-size: 8px;
+                    }
+                    button:hover{
+                        background-color: #74b781;
+                        color: white;
+                    }
+                }
+                .right{
+                    width: 125px;
+                    height: 100%;
+                    position: relative;
+                    .img1{
+                        width: 60px;
+                        height: 60px;
+                        position: absolute;
+                        z-index: 5;
+                        bottom: 10px;
+                        left: -7px;
+                    }
+                    .img2{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 90%;
+                    }
+                }
+               .a1{
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                background-color: #46A358;
+                bottom: 10px;
+                left: 46%;
+                z-index: 5;
+                border-radius: 50%;
+               }
+               .a2{
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                background-color: #46A358;
+                bottom: 10px;
+                left: 48%;
+                z-index: 5;
+                border-radius: 50%;
+               }
+               .a3{
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                background-color: #46A358;
+                bottom: 10px;
+                left: 50%;
+                z-index: 5;
+                border-radius: 50%;
+               }
+            
+                
+            }  
+        }
+    }
+}
+ 

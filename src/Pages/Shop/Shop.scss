@@ -1,0 +1,12 @@
+.shop {
+    width: 1450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:300px) and (max-width:676px) {
+    .shop{
+    width: 100%;
+    height: auto;
+    }
+}

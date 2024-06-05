@@ -1,0 +1,731 @@
+.ShopMakeUp {
+    width: 1440px;
+    height: 550px;
+    display: flex;
+   margin: 50px auto ;
+    justify-content: space-between;
+
+    .MakeUp-hed {
+        gap: 15px;
+        width: 120px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // margin: 0 55px 0 30px;
+
+        .MakeUp-box {
+            width: 100%;
+            height: 120px;
+            background-color: #FBFBFBFF;
+            cursor: pointer;
+            border-radius: 6px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                mix-blend-mode: darken;
+            }
+        }
+    }
+
+    .MakeUp-main {
+        width: 550px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        position: relative;
+        background-color: #FBFBFB;
+        border-radius: 6px;
+
+        .makeUp-icon {
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 3;
+
+            svg {
+                width: 20px;
+                height: 20px;
+                color: #3D3D3D;
+
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            mix-blend-mode: darken;
+            padding: 10px;
+        }
+    }
+
+    .MakeUp-fot {
+        width: 620px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .alfa {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: left;
+            color: #3D3D3D;
+            margin-bottom: 20px;
+
+
+        }
+
+        .MakeUp-raitng {
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #46A35880;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+
+            h2 {
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 16px;
+                text-align: left;
+                color: #46A358;
+            }
+
+            .raitng-icon {
+                display: flex;
+                align-items: center;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #3D3D3D;
+                    margin: auto 0 auto 10px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 16px;
+            text-align: left;
+            color: #3D3D3D;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 24px;
+            text-align: left;
+            color: #727272;
+            margin-bottom: 25px;
+        }
+
+        .size {
+            display: flex;
+            flex-direction: column;
+
+            h5 {
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 16px;
+                text-align: left;
+                color: #3D3D3D;
+                margin-bottom: 10px;
+            }
+
+            .size-icon {
+                gap: 10px;
+                display: flex;
+                margin-bottom: 25px;
+
+                .size-btn {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #727272;
+                    border: 1px solid #727272;
+
+&:active {
+                        background-color: #46A358;
+                        color: white;
+                        border: 1px solid #46A358;
+                    }
+                }
+            }
+        }
+
+        .makeUp-total {
+            gap: 15px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+
+            .makeUp-inp {
+                gap: 15px;
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+
+                .total-btn {
+                    width: 33px;
+                    height: 38px;
+                    color: white;
+                    background-color: #46A358CC;
+
+                    svg {
+                        width: 30px;
+                        height: 30px;
+                        background-color: transparent;
+                        border-radius: 50%;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 10px;
+                    text-align: left;
+                    color: #3D3D3D;
+                    margin: auto 0;
+                }
+            }
+
+            .buyNow {
+                background-color: #46A358;
+            }
+
+            .AddToo {
+                color: #46A358;
+                border-color: #46A358;
+            }
+
+            .hearth-icon {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #46A358;
+                border-radius: 6px;
+
+                svg {
+                    color: #46A358;
+                }
+            }
+        }
+
+        .makeUp-about {
+
+            h5 {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: left;
+                color: #727272;
+                margin: 10px 0;
+
+                span {
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    text-align: left;
+                    color: #262626;
+                }
+            }
+
+            h4 {
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: left;
+                color: #3D3D3D;
+
+                svg {
+                    color: #3D3D3D;
+
+                    &:hover,
+                    :active {
+                        color: #46A358;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Media Screen Size
+
+@media screen and (min-width:300px) and (max-width:676px) {
+    .ShopMakeUp {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        padding: 5px;
+        justify-content: space-between;
+
+        .MakeUp-hed {
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 10px;
+
+            .MakeUp-box {
+                width: 140px;
+                height: 140px;
+            }
+        }
+
+        .MakeUp-main {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+
+            .makeUp-icon {
+                display: none;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                mix-blend-mode: darken;
+            }
+        }
+
+        .MakeUp-fot {
+            width: 620px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            .MakeUp-raitng {
+                flex-wrap: wrap;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .size {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+h5 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #3D3D3D;
+                    margin-bottom: 15px;
+                }
+
+                .size-icon {
+                    gap: 20px;
+
+                    .size-btn {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+            }
+
+            .makeUp-total {
+                gap: 15px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .makeUp-inp {
+                    gap: 15px;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 15px;
+
+                    .total-btn {
+                        width: 44px;
+                        height: 48px;
+
+                        svg {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 10px;
+                        text-align: left;
+                        color: #3D3D3D;
+                        margin: auto 0;
+                    }
+                }
+            }
+
+            .makeUp-about {
+
+                h5 {
+                    font-size: 19px;
+                    margin: 15px 0;
+
+                    span {
+                        font-size: 20px;
+                    }
+                }
+
+                h4 {
+                    font-size: 34px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+
+                    svg {
+                        width: 44px;
+                        height: 44px;
+                        color: #3D3D3D;
+                        margin-top: 15px;
+
+                        &:hover,
+                        :active {
+                            color: #46A358;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:678px) and (max-width:976px) {
+    .ShopMakeUp {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        padding: 5px;
+        justify-content: space-between;
+
+        .MakeUp-hed {
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 10px;
+
+            .MakeUp-box {
+                width: 160px;
+                height: 140px;
+            }
+        }
+
+        .MakeUp-main {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+
+            .makeUp-icon {
+                display: none;
+            }
+
+            img {
+                width: 100%;
+                height: 90%;
+                mix-blend-mode: darken;
+            }
+        }
+
+        .MakeUp-fot {
+            width: 620px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            .MakeUp-raitng {
+                flex-wrap: wrap;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .size {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+                h5 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #3D3D3D;
+                    margin-bottom: 15px;
+                }
+
+                .size-icon {
+                    gap: 20px;
+
+                    .size-btn {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+            }
+
+.makeUp-total {
+                gap: 15px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .makeUp-inp {
+                    gap: 15px;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 15px;
+
+                    .total-btn {
+                        width: 44px;
+                        height: 48px;
+
+                        svg {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 10px;
+                        text-align: left;
+                        color: #3D3D3D;
+                        margin: auto 0;
+                    }
+                }
+            }
+
+            .makeUp-about {
+
+                h5 {
+                    font-size: 19px;
+                    margin: 15px 0;
+
+                    span {
+                        font-size: 20px;
+                    }
+                }
+
+                h4 {
+                    font-size: 34px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+
+                    svg {
+                        width: 44px;
+                        height: 44px;
+                        color: #3D3D3D;
+                        margin-top: 15px;
+
+                        &:hover,
+                        :active {
+                            color: #46A358;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:978px) and (max-width:1440px) {
+    .ShopMakeUp {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 100px;
+        padding: 5px;
+        justify-content: space-between;
+
+        .MakeUp-hed {
+            width: 150px;
+            height: 100%;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 10px;
+
+            .MakeUp-box {
+                width: 160px;
+                height: 140px;
+            }
+        }
+
+        .MakeUp-main {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+
+            .makeUp-icon {
+                display: none;
+            }
+
+            img {
+                width: 100%;
+                height: 90%;
+                mix-blend-mode: darken;
+            }
+        }
+
+        .MakeUp-fot {
+            width: 600px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            .MakeUp-raitng {
+                flex-wrap: wrap;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .size {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+                h5 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #3D3D3D;
+                    margin-bottom: 15px;
+                }
+
+                .size-icon {
+                    gap: 20px;
+
+                    .size-btn {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+            }
+
+            .makeUp-total {
+                gap: 15px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 25px;
+
+                .makeUp-inp {
+                    gap: 15px;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 15px;
+
+                    .total-btn {
+                        width: 44px;
+                        height: 48px;
+
+svg {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 10px;
+                        text-align: left;
+                        color: #3D3D3D;
+                        margin: auto 0;
+                    }
+                }
+            }
+
+            .makeUp-about {
+
+                h5 {
+                    font-size: 19px;
+                    margin: 15px 0;
+
+                    span {
+                        font-size: 20px;
+                    }
+                }
+
+                h4 {
+                    font-size: 34px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+
+                    svg {
+                        width: 44px;
+                        height: 44px;
+                        color: #3D3D3D;
+                        margin-top: 15px;
+
+                        &:hover,
+                        :active {
+                            color: #46A358;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
