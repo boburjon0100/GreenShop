@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Bars = ({barsopen , setBarsopen}) => {
   return (
-    <div className={barsopen ? "bars1 active" : "bars1"} onDoubleClick={() => setBarsopen(false)}>
+    <div className={barsopen ? "bars1 active" : "bars1"}>
       
         <ul>
             <li><NavLink to={"/"}>Home</NavLink></li>

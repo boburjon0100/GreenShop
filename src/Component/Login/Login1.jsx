@@ -31,7 +31,7 @@ const Login = ({login , setLogin}) => {
           <input type="text" placeholder="Password" />
           <input type="text" placeholder="Confirm Password" />
           <p><NavLink >Forget Password ?</NavLink></p>
-          <button>Login</button>
+          <button>Registar</button>
          
         </div>
         <div className="gugl">

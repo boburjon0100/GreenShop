@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className='App'>
       <Login login={login} setLogin ={setLogin} />
-      <Navbar setSearch={setSearch} setLogin ={setLogin} login={login} barsopen = {barsopen} setBarsopen ={setBarsopen}/>
+      <Navbar setSearch={setSearch} search={search} setLogin ={setLogin} login={login} barsopen = {barsopen} setBarsopen ={setBarsopen}/>
       <Search search={search} setSearch={setSearch}/>
       <Bars barsopen = {barsopen} setBarsopen ={setBarsopen}/>
         <Routes>

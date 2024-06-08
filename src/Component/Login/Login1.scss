@@ -187,7 +187,6 @@
         height: auto;
         margin: 0 auto;
         display: none;
-    
         background-color: rgba(0, 0, 0, 0.436);
         position: absolute;
         z-index: 10;
@@ -199,12 +198,14 @@
         }
         .login1{
             width: 350px;
+            min-height: 500px;
             height: auto;
             background-color: rgb(232, 232, 232);
             position: relative;
             border-radius: 10px;
             display: flex;
-            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 50px;
             justify-content: center;
             .fa-circle-xmark{
                 font-size: 30px;

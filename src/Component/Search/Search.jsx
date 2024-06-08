@@ -4,7 +4,6 @@ const Search = ({search , setSearch}) => {
   return (
     <div className={search ? "search01 active" : "search01"}>
         <div className="search1">
-        <i class="fa-solid fa-door-open" onClick={() => setSearch(!search)}></i>
            <div className="input">
            <input type="text" placeholder='Find your plants' />
            <button>Search</button>

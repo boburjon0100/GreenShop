@@ -59,7 +59,7 @@ const Sale = ({Sales}) => {
                     </div>
                 </div>
                 <div className="narx">
-                    <p>Barberton Daisy Boburjon</p>
+                    <p>Barberton Daisy</p>
                     <h3>$119.00</h3>
                 </div>
           </div>
