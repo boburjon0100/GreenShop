@@ -10,8 +10,8 @@ const Navbar = ({ setBarsopen , setLogin , barsopen}) => {
         <ul>
             <li><NavLink to={"/"}>Home</NavLink></li>
             <li><NavLink to={"/Shop"}>Shop</NavLink></li>
-            <li><NavLink>Plant Care</NavLink></li>
-            <li><NavLink>Blogs</NavLink></li>
+            <li><NavLink to={"/Found"}>Plant Care</NavLink></li>
+            <li><NavLink to={"/Found"}>Blogs</NavLink></li>
         </ul>
         <div className="search">
           <span>3</span>
