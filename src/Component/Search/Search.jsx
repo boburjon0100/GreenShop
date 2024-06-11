@@ -1,8 +1,9 @@
+
 import "./Search.scss"
 
-const Search = ({search , setSearch}) => {
+const Search = () => {
   return (
-    <div className={search ? "search01 active" : "search01"}>
+    <div className="search01">
         <div className="search1">
            <div className="input">
            <input type="text" placeholder='Find your plants' />

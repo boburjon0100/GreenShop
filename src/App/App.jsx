@@ -9,20 +9,21 @@ import ShopCart from '../Pages/ShopCart/ShopCart'
 import NavFoter from '../Component/NavFoter/NavFoter'
 import Login from '../Component/Login/Login1'
 import Search from '../Component/Search/Search'
+import Found from '../Component/Found/Found'
 const App = () => {
   const [barsopen , setBarsopen] = useState(false)
   const [login , setLogin] = useState(false)
-  const [search , setSearch] = useState(false)
   return (
     <div className='App'>
       <Login login={login} setLogin ={setLogin} />
-      <Navbar setSearch={setSearch} search={search} setLogin ={setLogin} login={login} barsopen = {barsopen} setBarsopen ={setBarsopen}/>
-      <Search search={search} setSearch={setSearch}/>
+      <Navbar  setLogin ={setLogin} login={login} barsopen = {barsopen} setBarsopen ={setBarsopen}/>
       <Bars barsopen = {barsopen} setBarsopen ={setBarsopen}/>
         <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='/Shop' element={<Shop/>}/>
             <Route path='/ShopCart' element={<ShopCart/>}/>
+            <Route path='/Found' element={<Found/>}/>
+            <Route path='/Search' element={<Search/>}/>
         </Routes>
         <NavFoter setLogin ={setLogin}/>
         <Foter/>

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Main2.scss"
+import { NavLink } from 'react-router-dom'
 
 const Main2 = () => {
   return (
@@ -11,7 +12,7 @@ const Main2 = () => {
             <div className="text">
                 <h2> SUMMER CACTUS <br /> & SUCCULENTS</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, facere saepe corporis repellat molestias </p>  
-                <button>Find More<i class="fa-solid fa-arrow-right"></i></button>
+                <NavLink to={"/Found"}><button>Find More<i class="fa-solid fa-arrow-right"></i></button></NavLink>
                 
 
             </div>
@@ -23,7 +24,7 @@ const Main2 = () => {
             <div className="text">
                 <h2> WINTER CACTUS <br /> & SUCCULENTS</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, facere saepe corporis repellat </p>  
-                <button>Find More<i class="fa-solid fa-arrow-right"></i></button>
+                <NavLink to={"/Found"}><button>Find More<i class="fa-solid fa-arrow-right"></i></button></NavLink>
                 
 
             </div>

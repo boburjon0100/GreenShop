@@ -3,7 +3,7 @@ import "./Navbar.scss"
 import { NavLink } from 'react-router-dom'
 
 
-const Navbar = ({ setBarsopen , setLogin , setSearch , search , barsopen}) => {
+const Navbar = ({ setBarsopen , setLogin , barsopen}) => {
   return (
     <div className='Navbar'>
         <div className="logo"><NavLink to={"/"}><img src="/images/Logo.png" alt="" /></NavLink></div>
@@ -15,7 +15,7 @@ const Navbar = ({ setBarsopen , setLogin , setSearch , search , barsopen}) => {
         </ul>
         <div className="search">
           <span>3</span>
-        <i class="fa-solid fa-magnifying-glass" onClick={() => setSearch(!search)}></i>
+        <NavLink to={"/Search"}><i class="fa-solid fa-magnifying-glass"></i></NavLink>
        <NavLink to={"ShopCart"}> <i class="fa-solid fa-cart-shopping"></i></NavLink>
        <NavLink ><button onClick={() => setLogin(true)}><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button></NavLink>
         </div>

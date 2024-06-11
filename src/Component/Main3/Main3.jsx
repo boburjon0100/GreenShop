@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Main3.scss"
+import { NavLink } from 'react-router-dom'
 
 const Main3 = () => {
   return (
@@ -16,7 +17,7 @@ const Main3 = () => {
                 <h4>September 12  |  Read in 45 minutes</h4>
                 <h3>Top 10 Succulents for <br />Your Home</h3>
                 <p>Cacti are succulents are easy care <br /> plants for any home or patio. </p>
-                <button>Read More<i class="fa-solid fa-arrow-right"></i></button>
+               <NavLink to={"/Found"}> <button>Read More<i class="fa-solid fa-arrow-right"></i></button></NavLink>
             </div>
         </div>
         <div className="blog">
@@ -27,7 +28,7 @@ const Main3 = () => {
                 <h4>September 13  |  Read in 12 minutes</h4>
                 <h3>Cactus & Succulent <br />Care Tips</h3>
                 <p>Cacti are succulents are easy care <br /> plants for any home or patio. </p>
-                <button>Read More<i class="fa-solid fa-arrow-right"></i></button>
+                <NavLink to={"/Found"}> <button>Read More<i class="fa-solid fa-arrow-right"></i></button></NavLink>
             </div>
         </div>
         <div className="blog">
@@ -38,7 +39,7 @@ const Main3 = () => {
                 <h4>September 14  |  Read in 18 minutes</h4>
                 <h3>Best Houseplants <br />Room by Room</h3>
                 <p>Cacti are succulents are easy care <br /> plants for any home or patio. </p>
-                <button>Read More<i class="fa-solid fa-arrow-right"></i></button>
+                <NavLink to={"/Found"}> <button>Read More<i class="fa-solid fa-arrow-right"></i></button></NavLink>
             </div>
         </div>
         <div className="blog">
@@ -49,7 +50,7 @@ const Main3 = () => {
                 <h4>September 15  |  Read in 6 minutes</h4>
                 <h3>Cactus & Succulent <br />Care Tips</h3>
                 <p>Cacti are succulents are easy care <br /> plants for any home or patio. </p>
-                <button>Read More<i class="fa-solid fa-arrow-right"></i></button>
+                <NavLink to={"/Found"}> <button>Read More<i class="fa-solid fa-arrow-right"></i></button></NavLink>
             </div>
         </div>
     </div>
